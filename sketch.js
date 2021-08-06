@@ -535,10 +535,10 @@ function draw(){
   }
   if(jp==3){
    if(keyDown("left")){
-    Matter.Body.applyForce(player.body,player.body.position,{x:-2,y:0})
+    Matter.Body.applyForce(player.body,player.body.position,{x:-1.75,y:0})
   }
    if(keyDown("right")){
-    Matter.Body.applyForce(player.body,player.body.position,{x:2,y:0})
+    Matter.Body.applyForce(player.body,player.body.position,{x:1.75,y:0})
   }
 }
   if(j>1.5){
